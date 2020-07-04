@@ -29,8 +29,8 @@ github_username:  thomas-sivilay
 paginate: 12
 
 # Build settings
-theme: jekyll-theme-hydeout
-#remote_theme: fongandrew/hydeout
+#theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
