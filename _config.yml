@@ -30,7 +30,7 @@ paginate: 10
 
 # Build settings
 theme: jekyll-theme-hydeout
-#remote_theme: fongandrew/hydeout
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
