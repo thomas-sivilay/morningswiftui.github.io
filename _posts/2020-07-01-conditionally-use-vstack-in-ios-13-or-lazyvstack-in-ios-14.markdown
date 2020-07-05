@@ -2,7 +2,8 @@
 layout: post
 title:  "Conditionally use VStack in iOS 13 or LazyVStack in iOS 14"
 date:   2020-07-01 17:38:05 +1000
-categories: swiftui ios14 vstack lazyvstack
+categories: swiftui
+tags: vstack lazyvstack ios14
 ---
 **WWDC2020** offered a new suite of Views, one interesting one is `LazyVStack` which allow us to delay the initialization of some content only when needed. Unfortunately it's only available in iOS 14. **What if you still want to offer an app that support iOS 13?**
 
