@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fix large title animation on iOS13"
-date:   2020-10-14 17:38:05 +1000
+date:   2019-10-14 17:38:05 +1000
 categories: iOS13
 tags: ios13, largetitle, navigation
 ---
