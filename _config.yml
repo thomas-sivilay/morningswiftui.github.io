@@ -33,6 +33,7 @@ paginate: 12
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
