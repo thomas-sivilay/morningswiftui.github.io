@@ -4,6 +4,7 @@ title:  "Display multiple Sheet in a SwiftUI View"
 date:   2020-05-13 17:38:05 +1000
 categories: swiftui
 tags: sheet modal viewmodifier
+redirect_from: "display-multiple-sheet-in-a-swiftui-view"
 ---
 SwiftUI views has a **ViewModifier** `.sheet` that allows us to present a modal view based on a state .isPresented which is a Bool. **What happened when we need to present more than one sheet?**
 
