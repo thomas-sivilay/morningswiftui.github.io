@@ -4,7 +4,7 @@ title:  "Interact with the photo library with SwiftUI"
 date:   2019-10-26 17:38:05 +1000
 categories: swiftui
 tags: uikit photo-library uiimagepickercontroller bridge
-redirect_from: "/interact-photo-library-swiftui"
+redirect_from: "/blog/interact-photo-library-swiftui"
 ---
 Let’s see how we can bridge SwiftUI and UIKit to allow ourself to use `UIImagePickerController` which gives us the ability to let the user select a photo from his photo library.
 

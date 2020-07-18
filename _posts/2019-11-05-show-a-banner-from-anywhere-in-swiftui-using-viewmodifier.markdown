@@ -4,7 +4,7 @@ title:  "Show a banner from anywhere in SwiftUI using ViewModifier"
 date:   2019-11-05 17:38:05 +1000
 categories: swiftui
 tags: viewmodifier banner
-redirect_from: "/show-a-banner-from-anywhere-in-swiftui-using-viewmodifier"
+redirect_from: "/blog/show-a-banner-from-anywhere-in-swiftui-using-viewmodifier"
 ---
 Creating view isn’t hard with SwiftUI, we can quickly iterate to build our final `struct BannerView: View`. But what if we would like to display it on top of our content? **What if we have multiple `View` that needs to show a banner?** Aren’t we going to duplicate code in lot of places with also defining how we want to animate in/out the transition?
 

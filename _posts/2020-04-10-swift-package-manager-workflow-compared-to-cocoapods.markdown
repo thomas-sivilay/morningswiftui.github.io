@@ -4,7 +4,7 @@ title:  "Swift Package Manager workflow compared to Cocoapods"
 date:   2020-04-10 17:38:05 +1000
 categories: swift
 tags: swiftpackagemanager spm cocoapods
-redirect_from: "/swift-package-manager-workflow-compared-to-cocoapods"
+redirect_from: "/blog/swift-package-manager-workflow-compared-to-cocoapods"
 ---
 
 For many years I’ve been relying on Cocoapods as a dependency manager, which works fine and it’s also widely adopted. But with Xcode 11, SPM now supports iOS targets so I decided to give it a try.

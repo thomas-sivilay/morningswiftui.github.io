@@ -4,7 +4,7 @@ title:  "ViewState in SwiftUI using ViewBuilder"
 date:   2020-01-12 17:38:05 +1000
 categories: swiftui
 tags: swiftui, viewbuilder, viewstate, ipad, iphone
-redirect_from: "/viewstate-in-swiftui-using-viewbuilder"
+redirect_from: "/blog/viewstate-in-swiftui-using-viewbuilder"
 ---
 Recently I wanted to **drive a SwiftUI view content based on a `ViewState`**, it became pretty common to use an `Enum` to represent the different state of a View.
 

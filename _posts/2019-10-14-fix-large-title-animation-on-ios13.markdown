@@ -4,7 +4,7 @@ title:  "Fix large title animation on iOS13"
 date:   2019-10-14 17:38:05 +1000
 categories: iOS13
 tags: ios13, largetitle, navigation
-redirect_from: "/fix-large-title-animation-on-ios13"
+redirect_from: "/blog/fix-large-title-animation-on-ios13"
 ---
 On iOS13 you might start to have your app, or have seen other apps having this issue where the large title animation isn't animating. Instead, it stays on the pushed view controller for a split seconds before disappearing.
 

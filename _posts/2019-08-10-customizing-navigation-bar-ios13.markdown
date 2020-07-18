@@ -4,7 +4,7 @@ title:  "Customising navigation bar in iOS13 with `UINavigationBarAppearance`"
 date:   2019-08-10 17:38:05 +1000
 categories: ios13
 tags: ios13 navigationbar uikit
-redirect_from: "/customizing-navigation-bar-ios13"
+redirect_from: "/blog/customizing-navigation-bar-ios13"
 ---
 
 Base on [Modernizing Your UI for iOS 13 - WWDC 2019](https://developer.apple.com/videos/play/wwdc2019/224/) in iOS13 the new way to customise your navigation bar is to use `UINavigationBarAppearance`. It also gives you more granularity over:
