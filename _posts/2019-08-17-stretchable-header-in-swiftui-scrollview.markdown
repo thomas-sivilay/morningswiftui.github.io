@@ -3,10 +3,12 @@ layout: post
 title: "Stretchable header in SwiftUI ScrollView"
 date:   2019-08-17 17:38:05 +1000
 categories: swiftui
-tags: scrollview header preferencekey experiment 
+tags: scrollview header preferencekey experiment
 redirect_from: "/stretchable-header-in-swiftui-scrollview"
 ---
 SwiftUI doesn’t provide yet a `TableHeaderView` or something similar to `UIScrollViewDelegate` but I tried to experiment with different Views to have something close to a stretchable header.
+
+![header]({{ site.baseurl }}/assets/images/20190817-header.png)
 
 The initial idea is to try to implement a stretchable header that would play well with a `List` or a `Form`.
 
@@ -171,4 +173,3 @@ Using the first view to update the preference value might work for our example h
 ## So what's next?
 
 That was just some experimentation that I wanted to share, definitely not something I recommend but some ideas to that could be use to improve and solve the initial goal. Without much documentation and using SwiftUI at the early stage, we do with what we have and the most important is that I had fun and learned more about GeometryReader and PreferenceKey trying this.
-
