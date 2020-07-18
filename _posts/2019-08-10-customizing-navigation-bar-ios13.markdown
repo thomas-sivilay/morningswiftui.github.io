@@ -45,7 +45,7 @@ func customSearchBar() {
 
 ## NavigationBar background
 
-![Image 1](https://images.squarespace-cdn.com/content/v1/5d3be71ceb5b500001e2104b/1565400421017-WE1N4QHWPAQ2863EQBHK/ke17ZwdGBToddI8pDm48kEfgAX52CIQMEoivIVGxO11Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIcVBX21mC-kV6oCQSRLtdVjL9vfOvmMcPp10Rp00xvRMKMshLAGzx4R3EDFOm1kBS/Screen%2BShot%2B2019-08-10%2Bat%2B10.24.23%2Bam.jpg)
+![Nav 1]({{ site.baseurl }}/assets/images/20190810-1.jpg)
 
 After configuring the appearance, you can now override the background color.
 
@@ -72,7 +72,7 @@ func customNavBarTitle() {
     ]
 }
 ```
-![Image 2](https://images.squarespace-cdn.com/content/v1/5d3be71ceb5b500001e2104b/1565400540358-MCUDVPSU1FP7I8XWJ9R0/ke17ZwdGBToddI8pDm48kO4S2ChleY-mQOhrSBl564NZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpz83cjuQvelB_yYGfvZSoWfZAMKmnNpvJ7Y7UwgFNVdTELdYPn-5X3_yDLX-F1_nPc/Screen%2BShot%2B2019-08-10%2Bat%2B10.38.22%2Bam.jpg)
+![Nav 2]({{ site.baseurl }}/assets/images/20190810-2.jpg)
 
 One note here, it’s good to use a fixed font size and not preferred font size. The navigation bar height doesn’t grow and don’t give more space, this is also the default behaviour anyway.
 
@@ -84,7 +84,7 @@ navBarAppearance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 3)
 
 ## Navigation Items
 
-![Image 3](https://images.squarespace-cdn.com/content/v1/5d3be71ceb5b500001e2104b/1565400456585-5UL48M13QQG0VJB6K2GQ/ke17ZwdGBToddI8pDm48kKw0P3RTKSgTTO1SpBcNqLtZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyk0YIOCSEbOYfxgiWxB6NjYTELLz13_cXiCGftxINOojLHTAAp0_9sdIhWdboYFv8/Screen%2BShot%2B2019-08-10%2Bat%2B10.52.30%2Bam.jpg)
+![Nav 3]({{ site.baseurl }}/assets/images/20190810-3.jpg)
 
 With UINavigationBarAppearance you can also individually customise the navigation bar button items appearance using UIBarButtonItemAppearance.
 
