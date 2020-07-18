@@ -14,14 +14,15 @@ The goals of this article is to show how to:
 
 To illustrate this, we will build a bridge app that list 3 bridges on a map view and allow the user to move the map to the “next” bridge.
 
-You can also download the example app project here: https://github.com/thomas-sivilay/mapview-swiftui
+You can also download the example app project [here](https://github.com/thomas-sivilay/mapview-swiftui)
+
+![Map]({{ site.baseurl }}/assets/images/20190731-mapview.png)
 
 ## Use `MKMapView` with UIRepresentableView in SwiftUI
 
 To learn about interfacing with UIKit, Apple has released a tutorial to help us understanding how to do so with UIPageViewController and UIPageControl. Interfacing with MKMapView isn’t actually much different in its structure.
 
-Apple Developer Documentation
-https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit
+[Apple Developer Documentation](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
 
 The only requirement is to conform to `UIRepresentableView` to make a UIKit view available.
 
@@ -201,4 +202,3 @@ private func selectNextLandmark() {
     }
 }
 ```
-
