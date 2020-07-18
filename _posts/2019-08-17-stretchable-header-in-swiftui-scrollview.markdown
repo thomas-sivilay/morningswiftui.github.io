@@ -40,13 +40,13 @@ Unfortunately this doesn’t work, we don’t have an extension of View with a `
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finally got something! Wanted to play with &quot;stretchy&quot; header in a scroll view with <a href="https://twitter.com/hashtag/SwiftUI?src=hash&amp;ref_src=twsrc%5Etfw">#SwiftUI</a>. The key is.. preferenceKey! Still needs a lot of tweaks but it&#39;s good to see some progress. <a href="https://twitter.com/hashtag/ScrollView?src=hash&amp;ref_src=twsrc%5Etfw">#ScrollView</a> <a href="https://twitter.com/hashtag/ContentOffset?src=hash&amp;ref_src=twsrc%5Etfw">#ContentOffset</a> <a href="https://twitter.com/hashtag/PreferenceKey?src=hash&amp;ref_src=twsrc%5Etfw">#PreferenceKey</a> <a href="https://t.co/cunjfBLD65">pic.twitter.com/cunjfBLD65</a></p>&mdash; Thomas Sivilay (@thomassivilay) <a href="https://twitter.com/thomassivilay/status/1161397525355458560?ref_src=twsrc%5Etfw">August 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-After some research and not finding much help, there is actually one blog that helped a lot in this experimentation: https://swiftui-lab.com
+After some research and not finding much help, there is actually one blog that helped a lot in this experimentation: [SwiftUI-Lab](https://swiftui-lab.com)
 
 And they will probably soon share how to achieve similar goal, hopefully in a more complete way:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s another example of the <a href="https://twitter.com/hashtag/SwiftUI?src=hash&amp;ref_src=twsrc%5Etfw">#SwiftUI</a> PreferenceKey protocol in action. Maybe one day ScrollView will support refresh controls natively... until then, here&#39;s my first approximation. Blog post + source code coming soon. First I need to do some cleanup. <a href="https://t.co/CbcymKTyIG">pic.twitter.com/CbcymKTyIG</a></p>&mdash; The SwiftUI Lab (@SwiftUILab) <a href="https://twitter.com/SwiftUILab/status/1162355929230315520?ref_src=twsrc%5Etfw">August 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Anyway, `PreferenceKey` was what helped me having something closer to the initial goal, you can read about it in [https://swiftui-lab.com/communicating-with-the-view-tree-part-1/][0]
+Anyway, `PreferenceKey` was what helped me having something closer to the initial goal, you can read about it in [this article](https://swiftui-lab.com/communicating-with-the-view-tree-part-1/)
 
 I use `PreferenceKey` as a way to share some values between `Views` **that share the same ancestors**. So in this example the value that I want to share is “what is the offset on the scroll” from the List to the StretchableHeader.
 

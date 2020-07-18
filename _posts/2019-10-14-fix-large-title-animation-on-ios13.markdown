@@ -7,6 +7,8 @@ tags: ios13, largetitle, navigation
 ---
 On iOS13 you might start to have your app, or have seen other apps having this issue where the large title animation isn't animating. Instead, it stays on the pushed view controller for a split seconds before disappearing.
 
+![header]({{ site.baseurl }}/assets/images/20191014-gif.gif)
+
 This problem actually already exist in iOS12.2, iOS11
 
 The animation is broken in the other way around where if you go back from the `SecondViewController` to the `FirstViewController` the largeTitle will take some time to appear.
@@ -16,7 +18,7 @@ The animation is broken in the other way around where if you go back from the `S
 To have a `ViewController` displaying its title as large you have multiple ways to achieve it:
 
 - Only use `prefersLargeTitles` with `.automatic` and FirstViewController using `prefersLargeTitles = true` and the SecondViewController using `false` .
-- Override `largeTitleDisplayMode` and `prefersLargeTitles`. The FirstViewController using `.always` and `true` while the SecondViewController using `.never` and `false`. 
+- Override `largeTitleDisplayMode` and `prefersLargeTitles`. The FirstViewController using `.always` and `true` while the SecondViewController using `.never` and `false`.
 
 ### What does the documentation says?
 
@@ -97,11 +99,8 @@ Other things you might want to take a look or be aware of is to exclude setting 
 
 ### Repo
 
-You can find all examples illutrated in a project here:
-https://github.com/thomas-sivilay/blog-large-title-ios13
+You can find all examples illustrated in a project [here](https://github.com/thomas-sivilay/blog-large-title-ios13)
 
 ### What about SwiftUI?
 
 You shouldn’t be having this issue since the way to tell SwiftUI that we want to display a large title is by wrapping our view in a NavigationView where inside your View will use .navigationBarTitle(“First”, displayMode: .large) or .navigationBarTitle(“Second”, displayMode: .inline so you don’t need to care about prefersLargeTitles.
-
-
