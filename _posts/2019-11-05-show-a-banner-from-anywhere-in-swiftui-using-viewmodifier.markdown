@@ -4,6 +4,7 @@ title:  "Show a banner from anywhere in SwiftUI using ViewModifier"
 date:   2019-11-05 17:38:05 +1000
 categories: swiftui
 tags: viewmodifier banner
+redirect_from: "/show-a-banner-from-anywhere-in-swiftui-using-viewmodifier"
 ---
 Creating view isn’t hard with SwiftUI, we can quickly iterate to build our final `struct BannerView: View`. But what if we would like to display it on top of our content? **What if we have multiple `View` that needs to show a banner?** Aren’t we going to duplicate code in lot of places with also defining how we want to animate in/out the transition?
 
@@ -41,7 +42,7 @@ struct BannerView: View {
         HStack {
             Text(data.title)
             Spacer()
-            Button(action: 
+            Button(action:
                 action?()
             ) {
                 Text(data.actionTitle ?? “Action”)
@@ -84,7 +85,7 @@ var body: some View {
 
 I call this the *naive way* because we are doing too much:
 - We know that a banner will be displayed, so we wrap everything in a `VStack`.
-- We use have a local `@State var showBanner` to display it or not. 
+- We use have a local `@State var showBanner` to display it or not.
 - We define the animation and transition.
 
 Nothing is *wrong*, it could just be improved. The syntax could be more concise and less repetitive accross your app.
@@ -122,7 +123,7 @@ struct BannerViewModifier: ViewModifier {
 }
 ```
 
-We basically moved almost everything we had before from the naive way, to this BannerViewModifier. 
+We basically moved almost everything we had before from the naive way, to this BannerViewModifier.
 
 And to make this accessible from any view, we just need to create an extension of View.
 
@@ -161,5 +162,5 @@ This is just an example of how we could use `ViewModifier` which can be handy an
 
 ### Project on GitHub
 
-Everything is available under a project here: 
+Everything is available under a project here:
 https://github.com/thomas-sivilay/blog-notification-banner-swiftui
