@@ -7,6 +7,8 @@ tags: uikit photo-library uiimagepickercontroller bridge
 ---
 Let’s see how we can bridge SwiftUI and UIKit to allow ourself to use `UIImagePickerController` which gives us the ability to let the user select a photo from his photo library.
 
+![header]({{ site.baseurl }}/assets/images/20191026-picker.gif)
+
 This is a common problem with the first version of SwiftUI that we have today, we would still have to request and use some API that are **only available in UIKit**. We already saw how to do similar things to use `MapKit`, Apple have a tutorial to interface with `UIPageViewController` but here we will only focus on `UIImagePickerController`.
 
 ## Introduce `UIViewControllerRepresentable`
@@ -91,7 +93,7 @@ We are already almost done here but in order to use the `ImagePickerViewControll
 struct ImagePicker : View {
     @EnvironmentObject var userData: UserData
     @Environment(\.presentationMode) var presentationMode
-    
+
     var body: some View {
         ImagePickerViewController(image: $userData.image, presentationMode: presentationMode)
     }
@@ -125,5 +127,3 @@ struct ContentView: View {
 ```
 
 In that example, we use the `ImagePicker` as the content of a `sheet()` which will show the picker in the new iOS13 card modal presentation. And we keep track on the state with pickerIsActive.
-
-
