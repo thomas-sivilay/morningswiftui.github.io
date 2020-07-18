@@ -4,6 +4,7 @@ title:  "Build layout programmatically or visually with SwiftUI"
 date:   2020-04-12 17:38:05 +1000
 categories: swiftui
 tags: declarative syntax, canvas
+redirect_from: "/build-layout-programmatically-or-visually-with-swiftui"
 ---
 **How do you build your layout?** Are you using auto layout? Frame calculations? Interface builder? I think we’ve all try different approaches and they all come with tradeoffs. It’s even harder when working within a group of people because sometimes the choice has been made out of common beliefs that became a convention. I believe it’s difficult to satisfy everyone because it’s just a matter of taste and preference.. until SwiftUI?
 

@@ -4,6 +4,7 @@ title:  "Building a MapView app with SwiftUI in iOS 13"
 date:   2019-07-31 17:38:05 +1000
 categories: swiftui
 tags: mapview mapkit bridge ios13
+redirect_from: "/build-mapview-app-with-swiftui"
 ---
 The goals of this article is to show how to:
 
