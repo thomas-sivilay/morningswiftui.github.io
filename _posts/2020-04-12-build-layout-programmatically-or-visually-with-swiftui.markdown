@@ -43,7 +43,7 @@ But that’s not it… I almost forgot about it because of habits of doing layou
 - in the **Canvas** (*the part of Xcode where we have a live representation*) you can select existing Views and with the inspector, like on interface builder, you can adjust values and add more modifiers to them
 - additionally, if you want to add new element to your View, you can drag and drop elements from the **Library** button (+) in the toolbar.
 
-![Edit]({{ site.baseurl }}/assets/images/20200412-edit.png)
+![Visual]({{ site.baseurl }}/assets/images/20200412-visual.png)
 
 ## The best of both worlds
 
